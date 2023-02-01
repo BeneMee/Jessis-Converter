@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.container {
+    border: solid 0.1px black;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    box-shadow: 5px 5px;
+}
+
+#label {
+    margin-bottom: 15px;
+    padding: 3px;
+}
+
+#select {
+    width: max-content;
+    align-self: center;
+    margin-bottom: 15px;
+    background-color: rgb(255, 192, 159);
+}
+
+.cm {
+    margin-bottom: 8px;
+}
